@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography;
 
 namespace Second_Assignment
 {
@@ -113,7 +114,23 @@ namespace Second_Assignment
             //}
             #endregion
 
+            #region Question9
+            //9- Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop). 
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if(books[i] == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //}
+            #endregion
         }
     }
 }
