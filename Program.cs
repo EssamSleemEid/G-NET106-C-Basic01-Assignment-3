@@ -59,6 +59,21 @@ namespace Second_Assignment
             //    Console.WriteLine((i+1)+books[i]);
             //}
             #endregion
+
+            #region Question5
+            //5- Using the same books array, use a while loop to print every book title. 
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            int i = 0;
+            while (i < books.Length)
+            {
+                Console.WriteLine((i+1)+books[i]);
+                i++;
+            }
+            #endregion
+
+
         }
     }
 }
