@@ -94,6 +94,26 @@ namespace Second_Assignment
             //    Console.WriteLine(i);
             //}
             #endregion
+
+            #region Question8
+            //8- Using the same books array, loop through it and print each title, but stop completely (break) once you reach "Refactoring".
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //for(int i = 0; i < books.Length; i++)
+            //{
+            //    if(books[i] != "Refactoring")
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+            #endregion
+
+
         }
     }
 }
