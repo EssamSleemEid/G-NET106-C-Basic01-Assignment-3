@@ -1,10 +1,153 @@
-﻿namespace Second_Assignment
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography;
+
+namespace Second_Assignment
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Question1
+            //1-  Given int pages = 464; and bool isAvailable = true;, print "You can borrow this book" only if pages is greater than 300 and isAvailable is true. Use the && operator. 
+
+            //int pages = 464;
+
+            //bool isAvailable = true;
+
+            //if (pages >300 && isAvailable)
+            //{
+            //    Console.WriteLine("you can borrow this book");
+            //}
+            #endregion
+
+            #region Question2
+            //2-  Given string title = "Refactoring";, write a switch statement that prints "Great choice!" if the title is "Clean Code", "Nice pick!" if it's "Refactoring", and "Never heard of it" for anything else. 
+
+            //string title = "Refactoring";
+
+            //switch (title)
+            //{
+
+            //    case "Clean Code":
+            //        Console.WriteLine("Great choice");
+            //        break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+
+            #endregion
+
+            #region Question3
+            //3- Given int pages = 464;, use the ternary operator to store "Long Book" or "Short Book" into a variable sizeLabel (same rule as question 6: long if pages > 300). 
+
+            //int pages = 464;
+
+            //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+
+            //Console.WriteLine(sizeLabel);
+            #endregion
+
+            #region Question4
+            //4- Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1. Clean Code. 
+
+            //string[] books = {"Clean Code","The Pragmatic Programmer","Refactoring"};
+            //for(int i =0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine((i+1)+books[i]);
+            //}
+            #endregion
+
+            #region Question5
+            //5- Using the same books array, use a while loop to print every book title. 
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //int i = 0;
+            //while (i < books.Length)
+            //{
+            //    Console.WriteLine((i+1)+books[i]);
+            //    i++;
+            //}
+            #endregion
+
+            #region Question6
+            //6-  Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book");
+            //    i++;
+            //} while (i < 3);
+            #endregion
+
+            #region Question7
+            //7- Using the same books array, use a foreach loop to print every book title
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //foreach (string i in books)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
+            #region Question8
+            //8- Using the same books array, loop through it and print each title, but stop completely (break) once you reach "Refactoring".
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //for(int i = 0; i < books.Length; i++)
+            //{
+            //    if(books[i] != "Refactoring")
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+            #endregion
+
+            #region Question9
+            //9- Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop). 
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if(books[i] == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //}
+            #endregion
+
+            #region Question10
+            //10- Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, use return to exit the method early instead of printing anything.
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //static void printfirstbook(string[] books)
+            //{
+            //    if(books.Length == 0)
+            //    {
+            //        return;
+            //    }
+            //    Console.WriteLine(books[0]);
+            //}
+            //printfirstbook(books);
+            #endregion
         }
+        
     }
 }
